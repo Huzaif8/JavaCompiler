@@ -24,29 +24,25 @@
             height: calc(100vh - 60px); /* Adjust height to fit viewport, subtracting space for other elements */
         }
 
-        .center-container {
+        .footer-container {
             text-align: center;
-            padding: 20px;
-            position: absolute;
+            padding: 10px;
+            position: fixed;
             bottom: 0;
             width: 100%;
-            background-color: #fff; /* Optional: Background color for better readability */
-            box-shadow: 0 -1px 5px rgba(0,0,0,0.1); /* Optional: Shadow for separation */
-        }
-
-        .copyright-text {
+            background-color: #fff; /* Background color for better readability */
+            box-shadow: 0 -1px 5px rgba(0,0,0,0.1); /* Shadow for separation */
             font-size: 14px;
             color: #828282;
-            margin: 0;
         }
 
-        .copyright-text a {
+        .footer-container a {
             color: #2791e7;
             text-decoration: none;
             font-weight: bold;
         }
 
-        .copyright-text a:hover {
+        .footer-container a:hover {
             text-decoration: underline;
         }
 
@@ -56,7 +52,7 @@
                 height: calc(100vh - 50px); /* Adjust for smaller screens */
             }
 
-            .copyright-text {
+            .footer-container {
                 font-size: 12px;
             }
         }
@@ -66,20 +62,18 @@
                 height: calc(100vh - 55px); /* Adjust for medium screens */
             }
 
-            .copyright-text {
+            .footer-container {
                 font-size: 13px;
             }
         }
     </style>
 </head>
 <body>
-    <iframe src="https://onecompiler.com/embed/java"></iframe>
+    <iframe src="https://onecompiler.com/embed/java" title="Java Compiler"></iframe>
 
-    <div class="center-container">
-        <span class="copyright-text widget">
-            Designed & Developed By |
-            <a href="https://www.instagram.com/iamhuzaif_7/" rel="dofollow">Momin Huzaif</a>
-        </span>
+    <div class="footer-container">
+        Designed & Developed By |
+        <a href="https://www.instagram.com/iamhuzaif_7/" rel="dofollow">Momin Huzaif</a>
     </div>
 </body>
 </html>
